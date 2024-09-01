@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    background-color: blanchedalmond;
+    background-color: rgb(238, 213, 176);
     color: black;
 }
 
@@ -23,7 +23,29 @@ body {
     margin: auto;
 }
 
+.main_container {
+    width: 600px;
+    border: 5px dotted brown;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: blanchedalmond;
+}
+
 .recipes_container{
-    width: 200px;
-    margin: auto;
+    width: 320px;
+    margin: 200px auto;
+    list-style-type: none;
+}
+
+.recipes_container .link {
+    display: block;
+    background-color: burlywood;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px dotted brown;
+}
+
+.recipes_container .link:hover {
+    background-color: white;
+    color: brown;
 }
